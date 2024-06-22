@@ -10,10 +10,10 @@
 
 | Name               | Student ID | Responsibilities                                                                                   |
 |--------------------|------------|----------------------------------------------------------------------------------------------------|
-| Bui Quang Thang    | 21280048   | Leader, ensure timely completion, integrating all parts of the project and compiling the final report |
-| Le Vo Bao Tram     | 21280052   | Handle EDA for each label, apply XgBoost, MLP, and Naive Bayes classification                     |
-| Huynh Thi Thu Thoang | 21280074  | Apply Random Forest, MLP classification, and compare before and after PCA performance              |
-| Nguyen Thuy Vy     | 21280120   | GridSearchCV to DecisionTree as e.g, implement model pipeline and handle SVM classification        |
+| Bùi Quang Thắng   | 21280048   | Leader, ensure timely completion, integrating all parts of the project and compiling the final report |
+| Lê Võ Bảo Trâm     | 21280052   | Handle EDA for each label, and apply XgBoost, MLP, and Naive Bayes classification                     |
+| Huỳnh Thị Thu Thoảng | 21280074  | Apply Random Forest, MLP classification, compare time and visualize before and after PCA  |
+| Nguyễn Thuý Vy     | 21280120   | Apply Desicion Tree, SVM algorithms with PCA, non PCA and GridSearchCV. Compare score as bar chart    |
 
 ## Methodology tl;dr
 
