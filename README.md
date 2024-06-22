@@ -21,9 +21,55 @@
 - Core ML Algos: Multi-Layer Perceptron (MLP), Random Forest, XgBoost, Naive,... and PCA comparison
 - Further work: Convolutional Neural Networks (CNN) for improved classification accuracy
 
-## Project Structure
+## Model Evaluation and Results
 
-The repository is organized into the following directories:
+### Original Data
+- **Decision Tree**
+  - Accuracy: 0.3096
+  - Precision: 0.2848
+  - Recall: 0.3096
+  - F1-Score: 0.2835
+- **Random Forest**
+  - Accuracy: 0.4631
+  - Precision: 0.5184
+  - Recall: 0.4631
+  - F1-Score: 0.4327
+- **SVM**
+  - Accuracy: 0.5671
+  - Precision: 0.5716
+  - Recall: 0.5671
+  - F1-Score: 0.5665
+- **MLP**
+  - Accuracy: 0.4524
+  - Precision: 0.4459
+  - Recall: 0.4524
+  - F1-Score: 0.4420
 
-- **/data**: This directory contains the facial expression dataset. You'll need to download the dataset and place it here before running the notebooks.
-- **/notebooks**: This directory contains the Jupyter notebook ```EDA.ipynb```. This notebook guides you through exploratory data analysis (EDA) and classification tasks.
+### PCA-Transformed Data
+- **Decision Tree**
+  - Accuracy: 0.3098
+  - Precision: 0.2888
+  - Recall: 0.3098
+  - F1-Score: 0.2701
+- **Random Forest**
+  - Accuracy: 0.4078
+  - Precision: 0.5361
+  - Recall: 0.4078
+  - F1-Score: 0.3601
+- **SVM**
+  - Accuracy: 0.3142
+  - Precision: 0.7015
+  - Recall: 0.3142
+  - F1-Score: 0.2261
+- **MLP**
+  - Accuracy: 0.4734
+  - Precision: 0.4612
+  - Recall: 0.4734
+  - F1-Score: 0.4615
+
+### Conclusion
+SVM achieved the best performance among the evaluated models. PCA helped reduce computational time significantly but generally resulted in lower performance metrics. Future work will explore CNNs for potentially better accuracy.
+
+### Further Work
+- **XGBoost**: Achieved 50% accuracy.
+- **CNN**: Achieved 56% accuracy.
